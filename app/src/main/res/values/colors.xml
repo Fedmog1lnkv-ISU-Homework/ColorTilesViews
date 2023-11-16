@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="bright">#9FFCFF</color>
-    <color name="dark">#970C02</color>
+    <color name="bright" tools:targetApi="34">@android:color/system_primary_light</color>
+    <color name="dark" tools:targetApi="34">@android:color/system_primary_dark</color>
 </resources>
